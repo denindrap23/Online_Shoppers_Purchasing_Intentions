@@ -1,7 +1,7 @@
 # Stage 1 -Exploratory Data Analysis, Insights & Visualization
 
 ## Exploratory Data Analysis
-- Hampir seluruh kolom memiliki tipe data yang sesuai kecuali 'operating_systems', 'browser', 'region', dan 'traffic_type' yang seharusnya ber tipe string atau object karena keempat kolom tersebut bertipe kategorikal.
+- Hampir seluruh kolom memiliki tipe data yang sesuai kecuali **operating_systems** , 'browser', 'region', dan 'traffic_type' yang seharusnya ber tipe string atau object karena keempat kolom tersebut bertipe kategorikal.
 - Semua kolom tidak memiliki missing values.
 - Semua kolom memiliki nilai summary yang cukup wajar walaupun seluruh variabel numerik memiliki nilai mean yang berbeda jauh dengan median karena metrik pengukuran memungkinkan didominasi nilai 0 apabila tidak ada aktivitas visitor.
 - Kolom 'special_day' hanya memiliki 6 unique values dan lebih baik di-treat sebagai tipe kategorikal.
